@@ -96,5 +96,17 @@ p {
   box-shadow: var(--box-shadow);
 }
 .primary-link:hover {
+  background: transparent;
   color: #0a58d4;
+}
+@media (max-width: 600px) {
+  h2,
+  p {
+    text-align: center;
+  }
+  .primary-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
 }
